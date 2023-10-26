@@ -31,7 +31,7 @@ const Board = () => {
       </div>
       <div className="body">
         <div className="leftbar">
-          {/* <h1>body</h1> */}
+          <h1>body-now add LOGIC</h1>
         </div>
         <div className="boardbox">
           <div className="boardgame">
