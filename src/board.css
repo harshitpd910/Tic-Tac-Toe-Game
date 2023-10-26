@@ -1,0 +1,90 @@
+
+
+
+
+
+body{
+    margin: 0;;
+    padding:0;
+    background-color: rgb(206, 212, 32);
+    /* box-sizing:border-box ; */
+
+
+}
+
+
+
+.main{
+        background-color: rgb(18, 228, 200);
+
+    display:flex;
+    flex-direction: column;
+    width:100vw;
+    height:100vh;
+    margin:0;
+    padding:0;
+    /* border:solid 5px red; */
+
+}
+
+.header{
+    background-color:  rgb(153, 30, 69);
+    height: 10%;
+}
+
+.header>h1{
+display: flex;
+justify-content: center;
+align-items:center;
+margin: 15px; ;
+color: rgb(74, 10, 74);
+}
+
+.body{
+    background-color: rgba(33, 35, 141, 0.744);
+    height:85%;
+    display: flex;
+}
+
+.leftbar{
+    width:15% ;
+    background-color: rgb(183, 117, 25);
+}
+
+.boardbox{
+    background-color: rgb(94, 94, 31);
+    /* width: 60%; */
+    flex: 1;
+    /* height:80% ; */
+
+    /* aspect-ratio: 1/1; */
+    /* padding-top:20% ; */
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boardgame{
+    background-color: lightgrey;
+    height:100%;
+    aspect-ratio: 1/1;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.indiv{
+    border:solid 1px white;
+}
+
+.rightbar{
+    width: 15%;
+    background-color: rgb(183, 117, 25);
+
+}
+
+.footer{
+    background-color: rgb(138, 25, 63);
+    height: 5%;
+}
